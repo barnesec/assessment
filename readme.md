@@ -23,3 +23,9 @@ I figured out why this was happening, but once it was functioning properly I was
 The documentation wasn't very helpful and I even went to the Q and A page for chart.js and nothing there was useful either.
 
 Also, I'd try to style it to make it look much better than it does at the moment.
+
+################################### UPDATE ##########################################
+
+After looking over everything again, I realized that I interpreted the instructions in a different way (counting the number
+of words in each bodyHtml property and displaying the count), but I've created a new branch called "revision" that counts
+every word throughout the entire feed and displays it's count.
