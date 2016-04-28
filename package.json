@@ -1,0 +1,25 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "1) Create a webpage with Javascript that (using ajax) gets a JSON document (test_feed.json) and builds a data structure that captures the count of each word in the content of the \"bodyHtml\" field(s).",
+  "main": "index.js",
+  "dependencies": {
+    "chartjs": "^0.3.23",
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnesec/assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnesec/assessment/issues"
+  },
+  "homepage": "https://github.com/barnesec/assessment#readme"
+}
