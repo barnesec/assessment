@@ -12,7 +12,9 @@ require(['jquery', 'script', 'chartjs'], function($, script, chartjs) {
 		// 1. Get Data from feed
 		$.get('../test_feed.json', function(result){
 		    // 2. On successful return, send retrieved object to stripContent function
-		    finalCount = stripContent(result.content);
+		    data = stripContent(result.content);
+
+		    console.log(data);
 
 		    // 3. Create graph
 
@@ -20,10 +22,10 @@ require(['jquery', 'script', 'chartjs'], function($, script, chartjs) {
 			var myChart = new Chart(ctx, {
 			    type: 'bar',
 			    data: {
-			        labels: finalCount,
+			        labels: data.words,
 			        datasets: [{
 			            label: '# of words per tweet',
-			            data: finalCount
+			            data: data.numbers
 			        }]
 			    },
 			    options: {
